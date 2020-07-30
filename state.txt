@@ -1,0 +1,10 @@
+output_path,output_images
+current_seed,0.0001
+output_resolution,1080
+threshold_state,False
+zoom_choice,0
+zoomX1,0
+zoomX2,0
+zoomY1,9
+zoomY2,9
+
