@@ -1,11 +1,6 @@
-# GENERATIVE VIDEO
-# creates zooming video of generative art
-# with variable amount of frames and custom seed
-
 import numpy as np, optparse, random, time
 from PIL import Image
 import subprocess
-
 
 
 # function generativeImg
@@ -93,7 +88,6 @@ def make9Grid(x, y):
     return retList
 
 
-
 # function make_zoom_out_coordinates
 # returns list with two coordinate tupels
 # which are the zoomed out boundary box from
@@ -118,19 +112,3 @@ def make_move_coordinates(x, y):
 	west = ((x[0], x[1] - delta), (y[0], y[1] - delta))
 	# return coordinates
 	return [north, east, south, west]
-
-
-
-
-
-"""
-# TODO:
-# Implement move
-# Implement zoom-out
-# 1. Add new buttons
-#    U
-#  L Z R
-#	 D
-# 2. add functions for the buttons using the new zoom information for image generation
-"""
-
