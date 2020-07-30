@@ -10,8 +10,8 @@ Zoom Enhance is a program for creating algorithmic art and losing yourself in th
 
 ## How to Run
 **Option A - Quick & Simple (recommended for most users)**
-1. Download the file zoom_enhance.exe from the build folder
-2. Run the file (on Windows). To run the program this way, you do not need python or other dependencies installed
+1. Download the file zoom_enhance.exe from [my website](https://fabiandietrich.com/static/code/zoom_enhance.exe) (it is 27MB which is more than Github allows)
+2. Run the file (on Windows). To run the program this way, you do not need python or other dependencies installed. Depending on your antivirus software, you might get a warning when trying to run the file. If you don't trust the .exe, you can also run the program by following Option B below
 3. Note that when using the program, you need to set an image save folder with the corresponding button before saving an image
 
 **Option B - Custom**
