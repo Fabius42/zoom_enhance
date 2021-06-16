@@ -5,11 +5,7 @@
 - Toggle between full color space, and 8-color thresholding
 - Save your favorite pictures (resolutions from 10x10px to 2560x2560px supported)
 
-![Zoom Enhance Start Screen](example_images/start-screen.jpg)
-
-![Zoom Example](example_images/zoom-example.jpg)
-
-![Thresholding](example_images/thresholding-example.jpg)
+<img src="https://github.com/Fabius42/zoom_enhance/blob/master/example_images/start-screen.jpg" width=500>
 
 ## How to Run
 **Option A - Quick & Simple (recommended for most users)**
@@ -25,10 +21,11 @@
 	- tkinter
 3. Run zoom_enhance.py (requires Python 3)
 
+<img src="https://github.com/Fabius42/zoom_enhance/blob/master/example_images/zoom-example.jpg" width=1000>
+<img src="https://github.com/Fabius42/zoom_enhance/blob/master/example_images/thresholding-example.jpg" width=700>
+
 ## Inspiration
-I experimented for a long time writing and using different Python scripts to create algorithmic art. Eventually, I wanted a more intuitive graphic user interface to be able to better direct my program. When creating abstract images based on a seed, the zoom factor can usually be chosen (almost) arbitrarily. As a Bladerunner fan, I remembered the iconic [enhance scene](https://www.youtube.com/watch?v=hHwjceFcF2Q), in which Harrison Ford is able to retrieve visual information from the depths of an endlessly magnified picture.
-
-
+This project is inspired by the iconic Bladerunner [enhance scene](https://www.youtube.com/watch?v=hHwjceFcF2Q), in which Harrison Ford is able to retrieve visual information from the depths of an endlessly magnified picture. Likewise, this project allows infinite levels of detail (zooming) of any given created image. With an easy-to-use GUI based on tkinter, now everybody can experience the sensation of endless zooming for themselves.
 
 ## Credit
-The underlying image generation algorithm that I used for this project is from Nathan Reed's post ['Generating Abstract Images with Random Functions'](http://reedbeta.com/blog/generating-abstract-images-with-random-functions/).
+The underlying image generation algorithm for this project that I used and modified is from Nathan Reed's post ['Generating Abstract Images with Random Functions'](http://reedbeta.com/blog/generating-abstract-images-with-random-functions/).
