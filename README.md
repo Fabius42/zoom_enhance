@@ -27,5 +27,7 @@
 ## Inspiration
 This project is inspired by the iconic Bladerunner [enhance scene](https://www.youtube.com/watch?v=hHwjceFcF2Q), in which Harrison Ford is able to retrieve visual information from the depths of an endlessly magnified picture. Likewise, this project allows infinite levels of detail (zooming) of any given created image. With an easy-to-use GUI based on tkinter, now everybody can experience the sensation of endless zooming for themselves.
 
+<img src="https://github.com/Fabius42/zoom_enhance/blob/master/example_images/blade-runner.JPG" width=500>
+
 ## Credit
 The underlying image generation algorithm for this project that I used and modified is from Nathan Reed's post ['Generating Abstract Images with Random Functions'](http://reedbeta.com/blog/generating-abstract-images-with-random-functions/).
